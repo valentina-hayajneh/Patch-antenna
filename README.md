@@ -10,13 +10,16 @@ This project involves the design and simulation of an inset-fed microstrip patch
 The following figure shows the layout and physical parameters of the reference antenna used for benchmarking:
 
 <img width="1411" height="573" alt="image" src="https://github.com/user-attachments/assets/ab94611d-d4cd-4755-bf62-7b90bef69f48" />
+
  **Figure 1**: Dimensions and layout of the benchmark inset-fed microstrip patch antenna
+ 
 
 Expected results from the reference design are shown below:
 
 <img width="1409" height="546" alt="image" src="https://github.com/user-attachments/assets/c62bb86d-8126-4c8d-9679-e86dc6257598" />
 
- **Figure 2**: Theoretical performance of the benchmark antenna as reported in the reference paper
+ **Figure 2**: Theoretical performance of the benchmark antenna as reported in the reference paper.
+ 
 ---
 ## The Designed Antenna — Geometry
 
