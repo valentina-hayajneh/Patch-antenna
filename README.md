@@ -21,7 +21,9 @@ The following performance metrics are the **expected results** of the reference 
  **Figure 2**: Expected performance of the benchmark antenna based on the reference paper.
 ---
 ## The Designed Antenna 
+
 **Geometry**
+
 The rectangular microstrip patch antenna designed with a patch length of 28.76 mm and a width of 37.97 mm is centrally placed on a dielectric substrate of dimensions 39.12 mm × 47.57 mm with a thickness of 1.6 mm. The ground plane fully covers the bottom surface of the substrate, while the patch is located on the top surface. Feeding is implemented using the inset feed technique, where a microstrip line of width 3.3 mm extends into the patch by 11.12 mm to achieve proper impedance matching. A feed gap of 1.2 mm is introduced at the feeding point. 
 <img width="619" height="509" alt="image" src="https://github.com/user-attachments/assets/91b7a240-e9a3-4d6b-ac2e-f3136cd66a75" />
 
