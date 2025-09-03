@@ -1,77 +1,85 @@
 <img width="11867" height="102" alt="image" src="https://github.com/user-attachments/assets/89e02bbe-08c2-49ff-ac82-7c20fd2f2a1d" /># Inset-Fed Microstrip Patch Antenna @ 2.4 GHz
 
 ## Overview
-An inset-fed microstrip patch antenna is a popular antenna type used in wireless communication due to its compact size, low profile, and ease of fabrication. The inset-feed technique involves cutting a notch into the patch and feeding the signal at an optimized position within this notch. This method improves the impedance matching between the patch and the feed line compared to simple edge-feeding techniques.
-This project involves the design and simulation of an inset-fed microstrip patch antenna operating at 2.4 GHz using HFSS ,
-The design is inspired by and benchmarked against the research paper(Design of 2.4 GHz Single Band Inset-Fed Rectangular Microstrip Patch Antenna)([URL](https://www.researchgate.net/publication/379504173_Design_Of_24_GHZ_Single_Band_Inset-Fed_Rectangular_Microstrip_Patch_Antenna))
+An inset-fed microstrip patch antenna is a popular antenna type used in wireless communication due to its compact size, low profile, and ease of fabrication. The inset-feed technique involves cutting a notch into the patch and feeding the signal at an optimized position within this notch. This method improves impedance matching between the patch and the feed line, compared to simple edge-feeding techniques.
 
-## The Antenna Used for Benchmarking
+This project involves the design and simulation of an inset-fed microstrip patch antenna operating at 2.4 GHz using HFSS. The design is inspired by and benchmarked against the research paper:([URL](https://www.researchgate.net/publication/379504173_Design_Of_24_GHZ_Single_Band_Inset-Fed_Rectangular_Microstrip_Patch_Antenna))
 
-The figure below shows the reference antenna layout and its physical dimensions used for benchmarking. The design includes the **substrate**, **ground plane**, **rectangular patch**, and **inset feed**.
+## Reference Antenna Design
+
+The following figure shows the layout and physical parameters of the reference antenna used for benchmarking:
+
 <img width="1411" height="573" alt="image" src="https://github.com/user-attachments/assets/ab94611d-d4cd-4755-bf62-7b90bef69f48" />
 
- **Figure 1**: Layout and dimensional specifications of the reference antenna operating at 2.4 GHz.
----
+ **Figure 1**: Dimensions and layout of the benchmark inset-fed microstrip patch antenna
 
-The following performance metrics are the **expected results** of the reference inset-fed microstrip patch antenna, based on the design parameters shown earlier. These values are taken directly from the paper used for benchmarking and represent the **theoretical performance** of the antenna.
+Expected results from the reference design are shown below:
+
 <img width="1409" height="546" alt="image" src="https://github.com/user-attachments/assets/c62bb86d-8126-4c8d-9679-e86dc6257598" />
 
- **Figure 2**: Expected performance of the benchmark antenna based on the reference paper.
+ **Figure 2**: Theoretical performance of the benchmark antenna as reported in the reference paper
 ---
-<h2>The Designed Antenna — Geometry</h2>
+## The Designed Antenna — Geometry
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
-  <div style="flex: 1;">
-    <p>
-      The rectangular microstrip patch antenna designed with a patch length of 28.76 mm and a width of 37.97 mm is centrally placed on a dielectric substrate of dimensions 39.12 mm × 47.57 mm with a thickness of 1.6 mm. The ground plane fully covers the bottom surface of the substrate, while the patch is located on the top surface. Feeding is implemented using the inset feed technique, where a microstrip line of width 3.3 mm extends into the patch by 11.12 mm to achieve proper impedance matching. A feed gap of 1.2 mm is introduced at the feeding point.
-    </p>
-  </div>
-  <div style="flex: 1;">
-    <img src="https://github.com/user-attachments/assets/da43c88e-d9e8-420c-8f56-348b0c5dd79f" alt="Designed Antenna" width="100%">
-  </div>
-</div>
+The designed antenna uses the same basic structure, with dimensions derived from the reference. The patch length is 28.76 mm, width 37.97 mm, and it is centered on a substrate of dimensions 39.12 mm × 47.57 mm with a thickness of 1.6 mm. The inset feed line is 3.3 mm wide and inset by 11.12 mm, with a feed gap of 1.2 mm.
 
-<p><strong>Figure 3:</strong> Geometry of the designed inset-fed microstrip patch antenna</p>
+<img width="617" height="509" alt="image" src="https://github.com/user-attachments/assets/be299061-6742-45dc-8887-6858c0658882" />
 
+**Figure 3**: Geometry of the designed antenna in HFSS.
  ---
- The antenna designed according to the above requirements ,the results as follows:
- **Return Loss**
+## Initial Simulation Results
+ ***Return Loss***
  
 <img width="1064" height="491" alt="image" src="https://github.com/user-attachments/assets/bff5bb82-786e-4836-8bb9-5a0a0e0abb32" />
 
-**Figure 4**: Return loss of designed inset-fed microstrip patch antenna
+**Figure 4**: Return loss before optimization.
+
 **VSWR**
+
 <img width="1321" height="546" alt="image" src="https://github.com/user-attachments/assets/7c603466-7380-49ac-8efa-5934eebebb5d" />
 
-**Figure 5**: VSWR of designed inset-fed microstrip patch antenna
+**Figure 5**: VSWR before optimization.
 
-We note that the obtained results different  from those presented in the reference paper used for benchmarking
+Note: The initial results differ from the reference. To improve performance and match the target frequency, optimization was necessary.
+
+##Optimization Process
+
+To reduce mismatch, the patch length was optimized. The optimal value was found to be between 14.38 mm and 43.14 mm, which improved matching and brought the results closer to expectations.
 
 <img width="1404" height="499" alt="image" src="https://github.com/user-attachments/assets/94a78646-fffb-493a-b0cb-9cf15b7cb6c0" />
 
-To solve this difference, we performed an optimization process on the patch length (patchl). The optimization was carried out to minimize the mismatch between the simulated and the desired performance at the operating frequency. As a result, the optimal value of patchl was determined to be in the range of 14.38 mm to 43.14 mm. This adjustment improved the antenna performance and aligned the simulated results more closely with the target specifications.
+**Figure 6**: Patch length optimization range.
+
 <img width="1323" height="447" alt="image" src="https://github.com/user-attachments/assets/b168e59b-dc95-4fa1-bdbb-fa3163ddde4c" />
 
-## The Designed Antenna — final results -Return Loss
-The antenna shows a return loss of -26.03 dB at 2.418 GHz, indicating excellent matching. The (-10) dB bandwidth is 66.5 MHz
+## Final Results
+***Return Loss (Final)***
+<img width="831" height="534" alt="image" src="https://github.com/user-attachments/assets/d8bfaf41-108d-47b4-a6bd-5439e5a16389" />
 
-<img width="1165" height="750" alt="image" src="https://github.com/user-attachments/assets/4b6997ae-54f3-4ebe-acb9-5ccd082d7020" />
+**Figure 7**: Final return loss result.
+
 ---
- ***The Designed Antenna — final results -VSWR***
+ ***VSWR (Final)***
 
 <img width="2000" height="779" alt="image" src="https://github.com/user-attachments/assets/5c406708-b976-4a7a-add6-58e50f7a70f1" />
 
- ***The Designed Antenna — final results -Realized Gain***
+**Figure 8**: Final VSWR.
+
+ ***Realized Gain***
 
  <img width="866" height="522" alt="image" src="https://github.com/user-attachments/assets/b7501362-2970-4197-b93f-16349c353009" />
 
- ***The Designed Antenna — final results -Directivity***
- <img width="909" height="490" alt="image" src="https://github.com/user-attachments/assets/6e5c92dd-0ce5-4621-9a07-e97652d6858c" /> <img width="1004" height="495" alt="image" src="https://github.com/user-attachments/assets/a6da2faa-1b49-44ec-92e4-70fee9738b64" />
+ **Figure 9**: Final realized gain.
 
+ ***Directivity***
 
-***The Designed Antenna — Benchmark***
+<p align="center"> <img width="450" src="https://github.com/user-attachments/assets/6e5c92dd-0ce5-4621-9a07-e97652d6858c" /> <img width="450" src="https://github.com/user-attachments/assets/a6da2faa-1b49-44ec-92e4-70fee9738b64" /> </p>
+
+**Figure 10**: Final directivity in different views.
+
+***Comparison with Reference***
 <img width="933" height="342" alt="image" src="https://github.com/user-attachments/assets/6370a9c4-98eb-4cb4-8471-ab103d103fd5" />
 
-
+**Figure 11**: Final benchmark comparison.
 
  
