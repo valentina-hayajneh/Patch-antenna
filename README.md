@@ -31,7 +31,8 @@ The designed antenna uses the same basic structure, with dimensions derived from
  
  ---
 ## Initial Simulation Results
- ***Return Loss***
+ **Return Loss**
+ 
  Return Loss (RL) is a key parameter in RF systems that measures how well power is transferred from a source (like a transmission line or feed) to a load (such as an antenna). It specifically quantifies the amount of signal reflected back due to impedance mismatches.
  
 <img width="1064" height="491" alt="image" src="https://github.com/user-attachments/assets/bff5bb82-786e-4836-8bb9-5a0a0e0abb32" />
@@ -39,6 +40,7 @@ The designed antenna uses the same basic structure, with dimensions derived from
 **Figure 4**: Return loss before optimization.
 
 **VSWR**
+
 indicates the ratio between the maximum and minimum voltage values along the line, resulting from the interference of the incident and reflected waves due to impedance mismatches.
 
 <img width="1321" height="546" alt="image" src="https://github.com/user-attachments/assets/7c603466-7380-49ac-8efa-5934eebebb5d" />
@@ -60,8 +62,7 @@ To reduce mismatch, the patch length was optimized. The optimal value was found 
 
 
 **Figure 7**: Patch length optimization range.
-
-This optimization step confirms that a patch length of **28.76 mm** yields the best impedance matching at the target frequency (2.4 GHz).
+---
 
 ## Final Results
 ***Return Loss (Final)***
