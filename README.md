@@ -73,7 +73,7 @@ To reduce mismatch, the patch length was optimized. The optimal value was found 
 
  ***Directivity***
 
-<p align="center"> <img width="450" src="https://github.com/user-attachments/assets/6e5c92dd-0ce5-4621-9a07-e97652d6858c" /> <img width="450" src="https://github.com/user-attachments/assets/a6da2faa-1b49-44ec-92e4-70fee9738b64" /> </p>
+<img width="1018" height="310" alt="image" src="https://github.com/user-attachments/assets/83e7f5b4-f5c5-4931-9a12-dccf67613f6d" />
 
 **Figure 10**: Final directivity in different views.
 
