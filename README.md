@@ -105,17 +105,23 @@ The simulation results indicated that a patch length of 28.76 mm provided the be
 The designed inset-fed microstrip patch antenna operating at 2.4 GHz successfully meets the performance expectations based on the benchmark reference. The optimization process, especially adjusting the patch length, significantly improved the impedance matching and overall antenna performance.Since  minor differences in gain and frequency offset are within acceptable limits, confirming the validity of the design methodology used in this project.
 
 ---
-# New Design: Rectangular Microstrip Patch Antenna (Edge-Fed) @ 2.4 GHz
+## Center-Inset Rectangular Microstrip Patch Antenna for 2.4 GHz
+
 
 ## Overview
 
-This section presents the design and simulation of a **rectangular microstrip patch antenna with edge feeding**, operating at a target frequency of **2.4 GHz**. Unlike the inset-fed design, this antenna uses a **direct edge feed via a microstrip transmission line**, making it structurally simpler and easier to fabricate.
+This section presents the independent design and simulation of a rectangular microstrip patch antenna with inset feeding, operating at a target frequency of 2.4 GHz. The antenna is excited through a microstrip transmission line inset into the patch, which provides improved impedance matching compared to conventional edge feeding.
 
-Edge-fed rectangular patch antennas are widely used in wireless communication systems due to their low profile, planar structure, and ease of integration with printed circuit boards (PCBs). However, they often require careful tuning to achieve optimal impedance matching, since the feed point is at the edge where the impedance is at its maximum.
+Inset-fed rectangular patch antennas are widely employed in modern wireless communication systems due to their planar profile, low cost, and ease of fabrication. By adjusting the inset position, the input impedance can be finely tuned, minimizing reflection and enhancing overall antenna performance.
 
 ---
 ## Antenna Geometry
-The designed antenna is a rectangular microstrip patch intended to operate at 2.4 GHz. The patch has dimensions of 38.04 mm × 29.59 mm and is printed on a dielectric substrate with a thickness of 1.6 mm, copper thickness of 0.035 mm, and overall length approximately equal to the free-space wavelength (λ ≈ 124.91 mm). The antenna is excited using an inset microstrip feed located 2 mm from the patch edge along the X-direction and 0.5 mm along the Y-direction, with an inset depth of 7 mm. The patch dimensions are optimized using a correction factor of 0.93 to achieve resonance at the target frequency.
+The proposed antenna is a rectangular microstrip patch designed to operate at 2.4 GHz. The patch dimensions are 38.04 mm × 29.59 mm, printed on a dielectric substrate of thickness 1.6 mm with a copper cladding of 0.035 mm. The overall length of the structure is approximately equal to the free-space wavelength (λ ≈ 124.91 mm).
+
+The antenna is excited using a microstrip transmission line with an inset feed, positioned 2 mm from the patch edge along the X-axis and 0.5 mm along the Y-axis, with an inset depth of 7 mm. This feeding technique enables fine-tuning of the input impedance for better matching.
+
+To ensure accurate resonance at the target frequency, the patch dimensions were optimized using a correction factor of 0.93, which accounts for fringing effects and the effective dielectric constant of the substrate.
+
 
 <img width="602" height="557" alt="image" src="https://github.com/user-attachments/assets/005136a3-95b2-4172-9b15-db4304a505a8" />
 
@@ -146,4 +152,5 @@ The plot shows a maximum gain of 5.58 dB, with a typical directional pattern, in
 
 **Figure 4**: Realized Gain of the designed antenna 
 
-
+## Summary  
+The proposed center-inset rectangular microstrip patch antenna resonates at 2.4 GHz with a −10 dB impedance bandwidth spanning approximately 2.334–2.430 GHz. The design achieves a peak realized gain of 5.58 dBi and maintains VSWR below 2 across the operating band, indicating satisfactory impedance matching and radiation performance for typical ISM-band applications. The inset feed and applied correction factor (0.93) effectively compensate for fringing effects and substrate dispersion. Minor discrepancies with the benchmark reference are attributable to substrate property variations and ground-plane dimensions; these can be further reduced through tolerance analysis and feed-position optimization.
