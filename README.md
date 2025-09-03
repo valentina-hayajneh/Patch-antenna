@@ -33,7 +33,8 @@ The designed antenna uses the same basic structure, with dimensions derived from
  
  ---
 ## Initial Simulation Results
- **Return Loss**
+---
+**Return Loss**
  
  Return Loss (RL) is a key parameter in RF systems that measures how well power is transferred from a source (like a transmission line or feed) to a load (such as an antenna). It specifically quantifies the amount of signal reflected back due to impedance mismatches.
  
@@ -102,4 +103,44 @@ The simulation results indicated that a patch length of 28.76 mm provided the be
 ## Summary
 
 The designed inset-fed microstrip patch antenna operating at 2.4 GHz successfully meets the performance expectations based on the benchmark reference. The optimization process, especially adjusting the patch length, significantly improved the impedance matching and overall antenna performance.Since  minor differences in gain and frequency offset are within acceptable limits, confirming the validity of the design methodology used in this project.
- 
+
+---
+# New Design: Rectangular Microstrip Patch Antenna (Edge-Fed) @ 2.4 GHz
+
+## Overview
+
+This section presents the design and simulation of a **rectangular microstrip patch antenna with edge feeding**, operating at a target frequency of **2.4 GHz**. Unlike the inset-fed design, this antenna uses a **direct edge feed via a microstrip transmission line**, making it structurally simpler and easier to fabricate.
+
+Edge-fed rectangular patch antennas are widely used in wireless communication systems due to their low profile, planar structure, and ease of integration with printed circuit boards (PCBs). However, they often require careful tuning to achieve optimal impedance matching, since the feed point is at the edge where the impedance is at its maximum.
+
+The design shown below was created and simulated using **HFSS** and is based on fundamental electromagnetic theory and standard design formulas. The objective is to achieve a return loss below -10 dB at 2.4 GHz, along with acceptable VSWR and radiation characteristics.
+---
+## Antenna Geometry
+The designed antenna is a rectangular microstrip patch intended to operate at 2.4 GHz. The patch has dimensions of 38.04 mm × 29.59 mm and is printed on a dielectric substrate with a thickness of 1.6 mm, copper thickness of 0.035 mm, and overall length approximately equal to the free-space wavelength (λ ≈ 124.91 mm). The antenna is excited using an inset microstrip feed located 2 mm from the patch edge along the X-direction and 0.5 mm along the Y-direction, with an inset depth of 7 mm. The patch dimensions are optimized using a correction factor of 0.93 to achieve resonance at the target frequency.
+
+<img width="13015" height="102" alt="image" src="https://github.com/user-attachments/assets/90552579-3e21-4f90-865a-0a4abd2b339e" />
+
+**Figure 1**:  Geometry of the designed antenna
+
+---
+## Return Loss
+
+The return loss plot shows a clear resonance at approximately 2.4 GHz, with a -10 dB bandwidth ranging from 2.334 GHz to 2.430 GHz, indicating good impedance matching within this frequency range.
+<img width="1879" height="838" alt="image" src="https://github.com/user-attachments/assets/e03a097a-1799-4a32-9b31-245404f17239" />
+
+**Figure 2**: Return loss of the designed antenna 
+---
+## VSWR
+<img width="1774" height="735" alt="image" src="https://github.com/user-attachments/assets/87945a45-0833-4ab6-be9a-e29af3cb330f" />
+
+**Figure 3**: VSWR of the designed antenna 
+---
+## Realized Gain 
+
+The plot shows a maximum gain of 5.58 dB, with a typical directional pattern, indicating effective radiation in the broadside direction.
+
+<img width="1178" height="747" alt="image" src="https://github.com/user-attachments/assets/07540d3d-2c77-45b6-9f78-2a33d16e47d3" />
+
+**Figure 4**: Realized Gain of the designed antenna 
+
+
