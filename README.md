@@ -32,21 +32,24 @@ The designed antenna uses the same basic structure, with dimensions derived from
  ---
 ## Initial Simulation Results
  ***Return Loss***
+ Return Loss (RL) is a key parameter in RF systems that measures how well power is transferred from a source (like a transmission line or feed) to a load (such as an antenna). It specifically quantifies the amount of signal reflected back due to impedance mismatches.
  
 <img width="1064" height="491" alt="image" src="https://github.com/user-attachments/assets/bff5bb82-786e-4836-8bb9-5a0a0e0abb32" />
 
 **Figure 4**: Return loss before optimization.
 
 **VSWR**
+indicates the ratio between the maximum and minimum voltage values along the line, resulting from the interference of the incident and reflected waves due to impedance mismatches.
 
 <img width="1321" height="546" alt="image" src="https://github.com/user-attachments/assets/7c603466-7380-49ac-8efa-5934eebebb5d" />
 
 **Figure 5**: VSWR before optimization.
 
-Note: The initial results differ from the reference. To improve performance and match the target frequency, optimization was necessary.
+We note that the initial results different from the reference. To improve performance and match the target frequency, optimization was necessary.
 
 <img width="1404" height="499" alt="image" src="https://github.com/user-attachments/assets/94a78646-fffb-493a-b0cb-9cf15b7cb6c0" />
 
+**Figure 6**: results from the reference
 
 ## Optimization Process
 
@@ -56,7 +59,7 @@ To reduce mismatch, the patch length was optimized. The optimal value was found 
 <img width="1323" height="447" alt="image" src="https://github.com/user-attachments/assets/b168e59b-dc95-4fa1-bdbb-fa3163ddde4c" />
 
 
-**Figure 6**: Patch length optimization range.
+**Figure 7**: Patch length optimization range.
 
 This optimization step confirms that a patch length of **28.76 mm** yields the best impedance matching at the target frequency (2.4 GHz).
 
@@ -66,31 +69,31 @@ This optimization step confirms that a patch length of **28.76 mm** yields the
 <img width="1034" height="435" alt="image" src="https://github.com/user-attachments/assets/f201506d-93ff-4b70-b973-5916ffaea700" />
 
 
-**Figure 7**: Final return loss result.
+**Figure 8**: Final return loss result.
 
 ---
  **VSWR (Final)**
 
 <img width="2000" height="779" alt="image" src="https://github.com/user-attachments/assets/5c406708-b976-4a7a-add6-58e50f7a70f1" />
 
-**Figure 8**: Final VSWR.
+**Figure 9**: Final VSWR.
 
  ***Realized Gain***
 
 <img width="856" height="470" alt="image" src="https://github.com/user-attachments/assets/f0cdac10-6c3b-4196-bb72-47ddb32095cc" />
 
- **Figure 9**: Final realized gain.
+ **Figure 10**: Final realized gain.
 
  **Directivity**
 
 <img width="1018" height="310" alt="image" src="https://github.com/user-attachments/assets/83e7f5b4-f5c5-4931-9a12-dccf67613f6d" />
 
-**Figure 10**: Final directivity in different views.
+**Figure 11**: Final directivity in different views.
 
 **Comparison with Reference**
 <img width="933" height="342" alt="image" src="https://github.com/user-attachments/assets/6370a9c4-98eb-4cb4-8471-ab103d103fd5" />
 
-**Figure 11**: Final benchmark comparison.
+**Figure 12**: Final benchmark comparison.
 
 Despite some minor differences, the final simulated results show good alignment with the reference paper, confirming the validity of the design approach.
 
