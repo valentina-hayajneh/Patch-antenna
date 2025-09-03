@@ -12,7 +12,8 @@ The following figure shows the layout and physical parameters of the reference a
 <img width="1411" height="573" alt="image" src="https://github.com/user-attachments/assets/ab94611d-d4cd-4755-bf62-7b90bef69f48" />
 
  **Figure 1**: Dimensions and layout of the benchmark inset-fed microstrip patch antenna
- 
+
+---
 
 Expected results from the reference design are shown below:
 
@@ -56,7 +57,6 @@ We note that the initial results different from the reference. To improve perfor
 ## Optimization Process
 
 To reduce mismatch, the patch length was optimized. The optimal value was found to be between 14.38 mm and 43.14 mm, which improved matching and brought the results closer to expectations,This optimization step confirms that a patch length of **28.76 mm** yields the best impedance matching at the target frequency (2.4 GHz).
-
 
 <img width="1323" height="447" alt="image" src="https://github.com/user-attachments/assets/b168e59b-dc95-4fa1-bdbb-fa3163ddde4c" />
 
