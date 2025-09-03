@@ -26,6 +26,7 @@ Expected results from the reference design are shown below:
 The designed antenna uses the same basic structure, with dimensions derived from the reference. The patch length is 28.76 mm, width 37.97 mm, and it is centered on a substrate of dimensions 39.12 mm × 47.57 mm with a thickness of 1.6 mm. The inset feed line is 3.3 mm wide and inset by 11.12 mm, with a feed gap of 1.2 mm.
 
 <img width="617" height="509" alt="image" src="https://github.com/user-attachments/assets/be299061-6742-45dc-8887-6858c0658882" />
+
  **Figure 3**: Geometry of the designed antenna.
  
  ---
