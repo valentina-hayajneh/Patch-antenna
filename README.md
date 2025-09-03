@@ -129,11 +129,14 @@ The return loss plot shows a clear resonance at approximately 2.4 GHz, with a -1
 <img width="1320" height="563" alt="image" src="https://github.com/user-attachments/assets/b178088f-b879-4d74-b7c7-0f8ebc8340ee" />
 
 **Figure 2**: Return loss of the designed antenna 
+
 ---
 ## VSWR
+
 <img width="1774" height="735" alt="image" src="https://github.com/user-attachments/assets/87945a45-0833-4ab6-be9a-e29af3cb330f" />
 
 **Figure 3**: VSWR of the designed antenna 
+
 ---
 ## Realized Gain 
 
