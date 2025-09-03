@@ -26,5 +26,4 @@ The rectangular microstrip patch antenna designed with a patch length of 28.76 m
 
 <img width="615" height="508" alt="image" src="https://github.com/user-attachments/assets/da43c88e-d9e8-420c-8f56-348b0c5dd79f" />
 
-**Figure 3**: Geometry of the designed inset-fed microstrip patch antenna.
-
+ **Figure 3**: Geometry of the designed inset-fed microstrip patch antenna
