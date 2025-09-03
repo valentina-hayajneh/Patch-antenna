@@ -113,12 +113,11 @@ This section presents the design and simulation of a **rectangular microstrip pa
 
 Edge-fed rectangular patch antennas are widely used in wireless communication systems due to their low profile, planar structure, and ease of integration with printed circuit boards (PCBs). However, they often require careful tuning to achieve optimal impedance matching, since the feed point is at the edge where the impedance is at its maximum.
 
-The design shown below was created and simulated using **HFSS** and is based on fundamental electromagnetic theory and standard design formulas. The objective is to achieve a return loss below -10 dB at 2.4 GHz, along with acceptable VSWR and radiation characteristics.
 ---
 ## Antenna Geometry
 The designed antenna is a rectangular microstrip patch intended to operate at 2.4 GHz. The patch has dimensions of 38.04 mm × 29.59 mm and is printed on a dielectric substrate with a thickness of 1.6 mm, copper thickness of 0.035 mm, and overall length approximately equal to the free-space wavelength (λ ≈ 124.91 mm). The antenna is excited using an inset microstrip feed located 2 mm from the patch edge along the X-direction and 0.5 mm along the Y-direction, with an inset depth of 7 mm. The patch dimensions are optimized using a correction factor of 0.93 to achieve resonance at the target frequency.
 
-<img width="13015" height="102" alt="image" src="https://github.com/user-attachments/assets/90552579-3e21-4f90-865a-0a4abd2b339e" />
+<img width="602" height="557" alt="image" src="https://github.com/user-attachments/assets/005136a3-95b2-4172-9b15-db4304a505a8" />
 
 **Figure 1**:  Geometry of the designed antenna
 
@@ -126,7 +125,8 @@ The designed antenna is a rectangular microstrip patch intended to operate at 2.
 ## Return Loss
 
 The return loss plot shows a clear resonance at approximately 2.4 GHz, with a -10 dB bandwidth ranging from 2.334 GHz to 2.430 GHz, indicating good impedance matching within this frequency range.
-<img width="1879" height="838" alt="image" src="https://github.com/user-attachments/assets/e03a097a-1799-4a32-9b31-245404f17239" />
+
+<img width="1320" height="563" alt="image" src="https://github.com/user-attachments/assets/b178088f-b879-4d74-b7c7-0f8ebc8340ee" />
 
 **Figure 2**: Return loss of the designed antenna 
 ---
