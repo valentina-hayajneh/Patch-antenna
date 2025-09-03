@@ -57,7 +57,9 @@ We note that the initial results different from the reference. To improve perfor
 
 ## Optimization Process
 
-To reduce mismatch, the patch length was optimized. The optimal value was found to be between 14.38 mm and 43.14 mm, which improved matching and brought the results closer to expectations,This optimization step confirms that a patch length of **28.76 mm** yields the best impedance matching at the target frequency (2.4 GHz).
+To improve impedance matching and reduce reflection losses, a parametric sweep of the patch length was performed. The patch length was varied from 14.38 mm to 43.14 mm, and the return loss at the target frequency of 2.4 GHz was monitored.
+
+The simulation results indicated that a patch length of 28.76 mm provided the best impedance matching, achieving the lowest return loss ,This confirms that 28.76 mm is the optimal patch length for the target frequency in the current design environment and substrate configuration.
 
 <img width="1323" height="447" alt="image" src="https://github.com/user-attachments/assets/b168e59b-dc95-4fa1-bdbb-fa3163ddde4c" />
 
