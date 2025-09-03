@@ -69,7 +69,7 @@ To reduce mismatch, the patch length was optimized. The optimal value was found 
 
  ***Realized Gain***
 
- <img width="866" height="522" alt="image" src="https://github.com/user-attachments/assets/b7501362-2970-4197-b93f-16349c353009" />
+<img width="856" height="470" alt="image" src="https://github.com/user-attachments/assets/f0cdac10-6c3b-4196-bb72-47ddb32095cc" />
 
  **Figure 9**: Final realized gain.
 
