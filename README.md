@@ -60,7 +60,6 @@ To reduce mismatch, the patch length was optimized. The optimal value was found 
 
 <img width="1323" height="447" alt="image" src="https://github.com/user-attachments/assets/b168e59b-dc95-4fa1-bdbb-fa3163ddde4c" />
 
-
 **Figure 7**: Patch length optimization range.
 ---
 
