@@ -18,7 +18,7 @@ Expected results from the reference design are shown below:
 
 <img width="1409" height="546" alt="image" src="https://github.com/user-attachments/assets/c62bb86d-8126-4c8d-9679-e86dc6257598" />
 
- **Figure 2**: Theoretical performance of the benchmark antenna as reported in the reference paper.
+ **Figure 3 **: Theoretical performance of the benchmark antenna as reported in the reference paper.
  
 ---
 ## The Designed Antenna — Geometry
