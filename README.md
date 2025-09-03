@@ -1,6 +1,7 @@
 <img width="11867" height="102" alt="image" src="https://github.com/user-attachments/assets/89e02bbe-08c2-49ff-ac82-7c20fd2f2a1d" /># Inset-Fed Microstrip Patch Antenna @ 2.4 GHz
 
 ## Overview
+
 An inset-fed microstrip patch antenna is a popular antenna type used in wireless communication due to its compact size, low profile, and ease of fabrication. The inset-feed technique involves cutting a notch into the patch and feeding the signal at an optimized position within this notch. This method improves impedance matching between the patch and the feed line, compared to simple edge-feeding techniques.
 
 This project involves the design and simulation of an inset-fed microstrip patch antenna operating at 2.4 GHz using HFSS. The design is inspired by and benchmarked against the research paper:([URL](https://www.researchgate.net/publication/379504173_Design_Of_24_GHZ_Single_Band_Inset-Fed_Rectangular_Microstrip_Patch_Antenna))
@@ -96,6 +97,7 @@ To reduce mismatch, the patch length was optimized. The optimal value was found 
 
 **Figure 12**: Final benchmark comparison.
 
-Despite some minor differences, the final simulated results show good alignment with the reference paper, confirming the validity of the design approach.
+
+**Despite some minor differences, the final simulated results show good alignment with the reference paper, confirming the validity of the design approach**
 
  
