@@ -99,7 +99,7 @@ The simulation results indicated that a patch length of 28.76 mm provided the be
 
 **Figure 12**: Final benchmark comparison.
 
+## Summary
 
-**Despite some minor differences, the final simulated results show good alignment with the reference paper, confirming the validity of the design approach**
-
+The designed inset-fed microstrip patch antenna operating at 2.4 GHz successfully meets the performance expectations based on the benchmark reference. The optimization process, especially adjusting the patch length, significantly improved the impedance matching and overall antenna performance.Since  minor differences in gain and frequency offset are within acceptable limits, confirming the validity of the design methodology used in this project.
  
