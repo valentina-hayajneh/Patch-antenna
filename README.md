@@ -12,9 +12,7 @@ The figure below shows the reference antenna layout and its physical dimensions 
 <img width="1411" height="573" alt="image" src="https://github.com/user-attachments/assets/ab94611d-d4cd-4755-bf62-7b90bef69f48" />
 
  **Figure 1**: Layout and dimensional specifications of the reference antenna operating at 2.4 GHz.
-
-
- ## Expected Results (from Benchmark Design)
+---
 
 The following performance metrics are the **expected results** of the reference inset-fed microstrip patch antenna, based on the design parameters shown earlier. These values are taken directly from the paper used for benchmarking and represent the **theoretical performance** of the antenna.
 <img width="1409" height="546" alt="image" src="https://github.com/user-attachments/assets/c62bb86d-8126-4c8d-9679-e86dc6257598" />
