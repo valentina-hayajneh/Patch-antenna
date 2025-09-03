@@ -1,4 +1,4 @@
-# Inset-Fed Microstrip Patch Antenna @ 2.4 GHz
+<img width="11867" height="102" alt="image" src="https://github.com/user-attachments/assets/89e02bbe-08c2-49ff-ac82-7c20fd2f2a1d" /># Inset-Fed Microstrip Patch Antenna @ 2.4 GHz
 
 ## Overview
 An inset-fed microstrip patch antenna is a popular antenna type used in wireless communication due to its compact size, low profile, and ease of fabrication. The inset-feed technique involves cutting a notch into the patch and feeding the signal at an optimized position within this notch. This method improves the impedance matching between the patch and the feed line compared to simple edge-feeding techniques.
@@ -22,14 +22,7 @@ The following performance metrics are the **expected results** of the reference 
 ---
 ## The Designed Antenna — Geometry
 
-<div style="display: flex; align-items: center; gap: 20px;">
-  <div style="flex: 1;">
-    <p>
-      The rectangular microstrip patch antenna designed with a patch length of 28.76 mm and a width of 37.97 mm is centrally placed on a dielectric substrate of dimensions 39.12 mm × 47.57 mm with a thickness of 1.6 mm. The ground plane fully covers the bottom surface of the substrate, while the patch is located on the top surface.
-      Feeding is implemented using the inset feed technique, where a microstrip line of width 3.3 mm extends into the patch by 11.12 mm to achieve proper impedance matching. A feed gap of 1.2 mm is introduced at the feeding point.
-    </p>
-  </div>
-  <div style="flex: 1;">
-    <img src="images/designed-antenna.png" alt="Designed Antenna" style="max-width: 100%; height: auto;">
-  </div>
-</div>
+The rectangular microstrip patch antenna designed with a patch length of 28.76 mm and a width of 37.97 mm is centrally placed on a dielectric substrate of dimensions 39.12 mm × 47.57 mm with a thickness of 1.6 mm. The ground plane fully covers the bottom surface of the substrate, while the patch is located on the top surface. Feeding is implemented using the inset feed technique, where a microstrip line of width 3.3 mm extends into the patch by 11.12 mm to achieve proper impedance matching. A feed gap of 1.2 mm is introduced at the feeding point. 
+<img width="615" height="508" alt="image" src="https://github.com/user-attachments/assets/da43c88e-d9e8-420c-8f56-348b0c5dd79f" />
+> **Figure 3**: Geometry of the designed inset-fed microstrip patch antenna.
+
