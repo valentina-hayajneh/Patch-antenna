@@ -1,4 +1,4 @@
-<img width="11867" height="102" alt="image" src="https://github.com/user-attachments/assets/89e02bbe-08c2-49ff-ac82-7c20fd2f2a1d" /># Inset-Fed Microstrip Patch Antenna @ 2.4 GHz
+## Inset-Fed Microstrip Patch Antenna @ 2.4 GHz
 
 ## Overview
 
