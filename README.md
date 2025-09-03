@@ -54,7 +54,9 @@ To reduce mismatch, the patch length was optimized. The optimal value was found 
 
 ## Final Results
 ***Return Loss (Final)***
-<img width="831" height="534" alt="image" src="https://github.com/user-attachments/assets/d8bfaf41-108d-47b4-a6bd-5439e5a16389" />
+
+<img width="1034" height="435" alt="image" src="https://github.com/user-attachments/assets/f201506d-93ff-4b70-b973-5916ffaea700" />
+
 
 **Figure 7**: Final return loss result.
 
