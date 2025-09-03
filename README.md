@@ -42,15 +42,18 @@ The designed antenna uses the same basic structure, with dimensions derived from
 
 Note: The initial results differ from the reference. To improve performance and match the target frequency, optimization was necessary.
 
+<img width="1404" height="499" alt="image" src="https://github.com/user-attachments/assets/94a78646-fffb-493a-b0cb-9cf15b7cb6c0" />
+
+
 ## Optimization Process
 
 To reduce mismatch, the patch length was optimized. The optimal value was found to be between 14.38 mm and 43.14 mm, which improved matching and brought the results closer to expectations.
 
-<img width="1404" height="499" alt="image" src="https://github.com/user-attachments/assets/94a78646-fffb-493a-b0cb-9cf15b7cb6c0" />
+<img width="1323" height="447" alt="image" src="https://github.com/user-attachments/assets/b168e59b-dc95-4fa1-bdbb-fa3163ddde4c" />
+
 
 **Figure 6**: Patch length optimization range.
 
-<img width="1323" height="447" alt="image" src="https://github.com/user-attachments/assets/b168e59b-dc95-4fa1-bdbb-fa3163ddde4c" />
 
 ## Final Results
 ***Return Loss (Final)***
